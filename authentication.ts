@@ -48,9 +48,7 @@ export async function authenticateUser(): Promise<OAuth2Client> {
                 // indicate authentication was successful
                 res.end('Authentication successful!');
                 // extract the tokens property from the returned object and assign it to the tokens variavle
-                console.log(qs)
                 const { tokens } = await oauth2Client.getToken(qs.get('code') as string);
-                console.log(tokens)
                 // add token to json file
                 const tokenJSON = JSON.stringify(tokens, null, 2);
                 fs.writeFileSync(TOKEN_PATH, tokenJSON, 'utf8')
