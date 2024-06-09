@@ -39,9 +39,9 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
 7. Go back to credentials > create credentials > OAuth client ID
 8. Select web application as application type
 9. Add authorized redirect URI as `http://127.0.0.1:3000/callback` > create
-10. Copy the client secret and client ID and add to a `.env` file in the same directory as the cloned repo formatted like below:
-    <p>GOOGLE_CLIENT_ID = &lt;insert id&gt;</p>
-    GOOGLE_CLIENT_SECRET = &lt;insert secret&gt;</p>
+10. Copy the client secret and client ID and add to a `.env` file in the same directory as the cloned repo formatted like below:<br>
+    `GOOGLE_CLIENT_ID = <insert id>`<br>
+    `GOOGLE_CLIENT_SECRET = <insert secret>`<br>
 11. `cd EchoCal`
 12. `npx tsx main.ts` to run
 13. `control C` to stop
