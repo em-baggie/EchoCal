@@ -42,8 +42,8 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
 10. Copy the client secret and client ID and add to a `.env` file in the same directory as the cloned repo formatted like below:
     <p>GOOGLE_CLIENT_ID = &lt;insert id&gt;</p>
     GOOGLE_CLIENT_SECRET = &lt;insert secret&gt;</p>
-11. `cd Echo Cal`
-12. `run npx tsx main.ts` to run
+11. `cd EchoCal`
+12. `npx tsx main.ts` to run
 13. `control C` to stop
 
 ## Tech stack used
