@@ -46,7 +46,7 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
 12. `run npx tsx main.ts` to run
 13. `control C` to stop
 
-### Tech stack used
+## Tech stack used
 - TypeScript
 - JavaScript (Node.js)
 - Google APIs
