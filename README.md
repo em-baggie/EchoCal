@@ -41,7 +41,7 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
     `GOOGLE_CLIENT_SECRET = <insert secret>`<br>
 11. `cd EchoCal`
 12. `npx tsx main.ts` to run
-13. `control C` to stop
+13. `Ctrl+C` to stop
 
 ## Tech stack used
 - TypeScript
