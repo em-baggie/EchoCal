@@ -25,16 +25,13 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
    3. APIs & Services > credentials > create credentials > OAuth client ID > configure consent screen
    4. User type: external > create
    5. Input app name, input your email as user support email and developer email > save & continue
-   6. Add the below scopes:
-      <ul>
-        <li>...`/auth/calendar.calendarlist.readonly`</li>
-        <li>...`/auth/calendar.events.public.readonly`</li>
-        <li>...`/auth/calendar.readonly`</li>
-        <li>...`/auth/calendar.calendars.readonly`</li>
-        <li>...`/auth/calendar.events.owned.readonly`</li>
-        <li>...`/auth/calendar.events.readonly`</li>
-       </ul>
-       > save and continue
+   6. Add the below scopes before clicking save and continue:<br>
+        ...`/auth/calendar.calendarlist.readonly`<br>
+        ...`/auth/calendar.events.public.readonly`<br>
+        ...`/auth/calendar.readonly`<br>
+        ...`/auth/calendar.calendars.readonly`<br>
+        ...`/auth/calendar.events.owned.readonly`<br>
+        ...`/auth/calendar.events.readonly`<br>
 5. Add users > Add your email as a test user > add > save and continue > back to dashboard
 7. Go back to credentials > create credentials > OAuth client ID
 8. Select web application as application type
