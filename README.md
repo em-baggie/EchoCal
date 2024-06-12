@@ -12,7 +12,7 @@ Welcome to EchoCal - a CLI app which reads your google calendar events aloud as 
 - Reads calendar event name and description 5 minutes prior to event
 - Avoids repeating the same event more than once
 - Checks for new events every 30 seconds
-- If event time is changed, identifies as new event to be read
+- If an event time is changed, it identifies this as new event to be read
 
 ## How to install/run
 
