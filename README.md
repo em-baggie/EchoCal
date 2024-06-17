@@ -6,13 +6,18 @@
 
 ## Overview
 
-Welcome to EchoCal - a CLI app which reads your google calendar events aloud as a verbal reminder before they occur. It can run in the background so you don't miss any notifications when you are not looking at your screen.
+Welcome to EchoCal - an open source CLI application which fetches data from Google Calendar events and provides real-time audible alerts to the user shortly before they begin. Designed for accessibility, the app runs in the background ensuring users do not miss notifications when away from the screen.
 
-## Features
+## Current features
 - Reads calendar event name and description 5 minutes prior to event
 - Avoids repeating the same event more than once
 - Checks for new events every 30 seconds
 - If an event time is changed, it identifies this as new event to be read
+
+## Features in development
+- Incorporation of a webhook to optimise event fetching
+- Support for mid-event reminders
+- Options to change type of voice
 
 ## How to install/run
 
