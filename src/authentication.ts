@@ -1,4 +1,3 @@
-// import dotenv library
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -41,7 +40,6 @@ export async function authenticateUser(): Promise<OAuth2Client> {
     const returnThing = await new Promise((resolve, err) => {
         const server = http.createServer(async function (req, res) {
         try {
-            //check if request URL contains /callback (if so, the request is for OAuth callback)
             if (req.url && req.url.includes('/callback')) {
                 // creates new URL object and extracts query parameters - contains the authorisation code
                 const qs = new URL(req.url, 'http://127.0.0.1:3000').searchParams;
@@ -56,7 +54,7 @@ export async function authenticateUser(): Promise<OAuth2Client> {
                 oauth2Client.setCredentials(tokens);
                 resolve(oauth2Client);
             }
-    // handle errors
+            
         } catch (e) {
             if (e instanceof Error) {
                 res.end(`Error: ${e.message}`);
