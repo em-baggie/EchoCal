@@ -14,7 +14,7 @@ Welcome to EchoCal - an open source CLI application which fetches data from Goog
 - Checks for new events every 30 seconds
 - If an event time is changed, it identifies this as new event to be read
 
-## Features in development
+## Areas for further development
 - Incorporation of a webhook to optimise event fetching
 - Support for mid-event reminders
 - Options to change type of voice
