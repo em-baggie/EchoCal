@@ -1,13 +1,5 @@
-// Title: EchoCal app
-// Name: Emma Baguhrst
-// GitHub username: em_baggie
-// edex username: ebaghurst
-// London, UK
-// recorded on 9/6/24
-
-
 // import dotenv library
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'; 
 dotenv.config();
 
 // import modules
